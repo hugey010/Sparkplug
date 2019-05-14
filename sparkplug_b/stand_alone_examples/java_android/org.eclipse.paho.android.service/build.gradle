@@ -120,7 +120,7 @@ publishing {
 
 
 task debug << {
-    configurations.compile.each { println it}
+    configurations.compile.each { println it }
 }
 // Required to bundle Java library Jar in AAR
 clean.doLast{
